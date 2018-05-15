@@ -19,7 +19,7 @@ module.exports.loop = function () {
         }
     }
 
-    var spawn1 = Game.spawns('Spawn1');
+    var spawn1 = Game.spawns['Spawn1'];
 
     if(spawn1.spawning != null && spawn1.energy > 150){
         spawn1.spawnCreep(['WORK', 'MOVE', 'CARRY']);
